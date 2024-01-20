@@ -38,3 +38,12 @@ npm run process
 This command starts the project, and you're ready to go. Open your browser and navigate to http://localhost:PORT, where PORT is the port you set in the .env file.
 
 Feel free to replace npm with yarn if you are using Yarn as your package manager.
+
+In case npm run process command fails, try manuall running the server using below commands, as process command is combination fo these 2 together.
+
+```bash
+npm run build
+
+node index.js
+
+```
